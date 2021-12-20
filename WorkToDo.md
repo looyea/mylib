@@ -19,3 +19,8 @@
 - 书名号
 - 其他标点
 
+需要得lIb
+lxml
+html5lib
+bs4
+six
