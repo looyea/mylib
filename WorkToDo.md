@@ -19,8 +19,9 @@
 - 书名号
 - 其他标点
 
-需要得lIb
+需要得lib
 lxml
 html5lib
 bs4
 six
+ebooklib

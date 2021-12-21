@@ -7,17 +7,22 @@ This one is focusing on books with:
 - title
 - subtitle
 - author
+- category
+- status
+- tag
 - publisher
 - ISBN
-- status
 - series
-- category
-- tag
 - personal lib
 - file name
 
 and so on. 
 
 this helps me to manage my ebooks with multiple views.
+
+
+# Spiders
+用来爬取图书分类的地方，这个使用了中国国家图书分类法进行爬取。相关链接参考
+> http://www.ztflh.com/
 
 
