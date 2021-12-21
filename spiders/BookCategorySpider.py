@@ -18,7 +18,7 @@ def getCategory(li):
                 text_item += ' '
             if child.name == 'a':
                 alink = child['href']
-        for i in range(1, layer-1):
+        for i in range(1, layer):
             of.write('\t')
         of.write(text_item)
         of.write('\n')
@@ -30,8 +30,10 @@ def getCategory(li):
 def digDownTree(url):
     global layer
     global headers
+    print(str(layer) + " before")
     layer += 1
-    if layer > MAX_LAYER:
+    print(str(layer) + " after")
+    if layer >= MAX_LAYER:
         layer -= 1
         return
     response = requests.get(url, headers)
