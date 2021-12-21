@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import requests
 import yaml
 from yaml import Loader
-import os
+import re
 
 
 def getCategory(li):
