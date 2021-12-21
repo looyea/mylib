@@ -1,9 +1,11 @@
-1. New Books Scanner
-2. Comparison Module
-3. Duplication Prop Module
-4. UI Interface
-5. Books Management
-6. Export Module
+1. New Books Scanner - Done
+2. Book Name Parser - Done
+3. Book Category Source - Doing
+4. Comparison Module 
+5. Duplication Prop Module
+6. UI Interface
+7. Books Management
+8. Export Module
     - Books List
     - Books Files 
 
@@ -25,3 +27,5 @@ html5lib
 bs4
 six
 ebooklib
+pyyaml
+requests
